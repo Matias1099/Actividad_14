@@ -7,7 +7,22 @@
     "start": "node index.js",
     "test": "node --test tests/*.test.js"
   },
-  "devDependencies": {
-    "node:test": "^20.0.0"
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matias1099/Actividad_14.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matias1099/Actividad_14/issues"
+  },
+  "homepage": "https://github.com/Matias1099/Actividad_14#readme",
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
